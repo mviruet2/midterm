@@ -33,10 +33,12 @@ def askUserChoice():
 
 def subtractSticks( number ):
     global sticks
-	sticks -= number
-	if sticks == 1:
+    
+	sticks = sticks - numbers
+	
+	if sticks <= 0:
 		return True
-	elif sticks >= 1:
+	elif:
 		return False
     
     # TODO: write code inside this function that:
@@ -45,5 +47,5 @@ def subtractSticks( number ):
     # 3. if there are still sticks left, return False
     
 def determineComputerChoice():
-	return random.randint(1,4)
+	return (random.randint(1,4))
     # TODO: write code inside this function that returns an integer between 1 and 4, random chosen by the computer
