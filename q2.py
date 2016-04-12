@@ -44,7 +44,7 @@ def subtractSticks( number ):
 	sticks = sticks - numbers
 	if sticks <= 0:	
 		return True
-	elif:
+	else:
 		return False
     
     # TODO: write code inside this function that:
