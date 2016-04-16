@@ -28,10 +28,10 @@ def askUserChoice():
     # 3. Once the user enters a valid input, return that input as an integer.
 	sticksPicked = int(input('Chose from 1 and 4 sticks'))
 	num = input()
-	if int () ==1:
-		return int (num)
-	elif int (num) ==2:
-		return int (num)
+	if int() ==1:
+		return int(num)
+	elif int(num) ==2:
+		return int(num)
 	elif int(num) ==3:
 		return int(num)
 	elif int(num) ==4:
