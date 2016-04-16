@@ -31,7 +31,7 @@ def askUserChoice():
 	if int () ==1:
 		return int (num)
 	elif int (num) ==2:
-		return int (num):
+		return int (num)
 	elif int(num) ==3:
 		return int(num)
 	elif int(num) ==4:
